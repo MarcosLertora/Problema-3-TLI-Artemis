@@ -106,7 +106,7 @@ Este comando genera el archivo ejecutable artemis_tli.exe.
 
 PASOS PARA EJECUTAR
 
-Una vez finalizada la compilación correctamente, ejecutar: ./artemis_tli.exe (en VS Code) o artemis_tli.exe (en CMD).
+Una vez finalizada la compilación correctamente, ejecutar: ./artemis_tli.exe
 
 ## USO DE INTELIGENCIA ARTIFICIAL
 
