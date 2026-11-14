@@ -1,8 +1,8 @@
-# GRUPO A11 - ARTEMIS – Simulador TLI (Escenario 3)
+# GRUPO A11 - ARTEMIS – SIMULADOR TLI (ESCENARIO 3)
 
 Proyecto académico en lenguaje C para Algoritmos y Estructuras de Datos. Representa de forma interactiva la maniobra de Inyección Translunar (TLI), el apagado de motores y el movimiento de Orion en trayectoria libre.
 
-## Información del grupo
+## INFORMACIÓN DEL GRUPO
 
 Grupo A11 - Comisión 1.1
 Integrantes del grupo:
@@ -12,7 +12,7 @@ Integrantes del grupo:
 - Guillén, Alexis de Jesús. Legajo Nº 27938
 - Lértora, Marcos Gabriel. Legajo Nº 27884
 
-## Escenario asignado: Inyección Translunar (TLI) e inercia en Trayectoria Libre
+## ESCENARIO ASIGNADO: INYECCIÓN TRANSLUNAR (TLI) E INERCIA EN TRAYECTORIA LIBRE
 
 El proyecto se basa en el Escenario 3: Inyección Translunar (TLI) e Inercia en Trayectoria Libre, correspondiente al programa Artemis de exploración lunar.
 
@@ -22,11 +22,11 @@ Una vez realizado el impulso de inyección, el módulo de propulsión ICPS se de
 
 El escenario permite aplicar conceptos fundamentales de Física, principalmente la Primera Ley de Newton (Ley de Inercia), la energía cinética y el principio de conservación de la energía mecánica.
 
-## Objetvio de la misión
+## OBJETIVO DE LA MISIÓN
 
 El objetivo es comprender y representar el comportamiento de la nave Orion durante su trayectoria translunar, teniendo en cuenta las condiciones iniciales de velocidad, masa y distancia, así como la influencia de la gravedad y la energía necesaria para realizar el viaje.
 
-## Datos principales del escenario
+## DATOS PRINCIPALES DEL ESCENARIO
 
 - Nave espacial: Orion.
 - Masa de la nave: 26.000 kg.
@@ -35,7 +35,7 @@ El objetivo es comprender y representar el comportamiento de la nave Orion duran
 - Altura de la órbita terrestre baja (LEO): 192.000 m.
 - Condición posterior a la maniobra TLI: Motores apagados y módulo ICPS desacoplado.
 
-## Reglas y consideraciones físicas
+## REGLAS Y CONSIDERACIONES FÍSICAS
 
 1. La nave recibe el impulso inicial necesario para iniciar su trayectoria translunar.
 2. Una vez completada la maniobra TLI, la nave continúa desplazándose sin utilizar sus motores.
@@ -44,7 +44,7 @@ El objetivo es comprender y representar el comportamiento de la nave Orion duran
 5. El análisis energético considera el trabajo necesario para trasladar la nave desde la órbita terrestre baja hasta el punto de equilibrio gravitatorio Tierra-Luna.
 6. Se considera la diferencia energética entre los trayectos Tierra-Luna y Luna-Tierra para comprender por qué el consumo de combustible requerido no es equivalente en ambos sentidos.
 
-## Funcionamiento del programa
+## FUNCIONAMIENTO DEL PROGRAMA
 
 El sistema consiste en un simulador interactivo desarrollado en lenguaje C que se ejecuta mediante una terminal o consola de comandos. Su finalidad es representar la misión translunar de la nave Orion, permitiendo al usuario interactuar con el programa y consultar información relacionada con el escenario físico asignado.
 
@@ -65,7 +65,7 @@ Los archivos de cabecera (.h) contienen las declaraciones y los prototipos neces
 
 La organización modular facilita el mantenimiento, la comprensión y la ampliación del programa.
 
-## Estructura del código
+## ESTRUCTURA DEL CÓDIGO
 
 artemis_tli_final/
 ├── include/
@@ -87,7 +87,7 @@ artemis_tli_final/
 ├── Makefile
 └── README.md
 
-## Compilación y ejecución
+## COMPILACIÓN Y EJECUCIÓN
 
 REQUISITOS PREVIOS
 
@@ -108,7 +108,7 @@ PASOS PARA EJECUTAR
 
 Una vez finalizada la compilación correctamente, ejecutar: ./artemis_tli.exe (en VS Code) o artemis_tli.exe (en CMD).
 
-## Uso de Inteligencia Artificial
+## USO DE INTELIGENCIA ARTIFICIAL
 
 Durante el desarrollo del proyecto se utilizó ChatGPT (OpenAI) como herramienta de asistencia para resolver dudas, analizar problemas y orientar distintas decisiones relacionadas con el diseño y la implementación del simulador.
 
@@ -117,6 +117,8 @@ La inteligencia artificial fue utilizada como apoyo al trabajo de los integrante
 TAREAS EN LAS QUE SE UTILIZÓ IA
 
 - Diseño inicial del proyecto: Consulta de ideas para desarrollar un simulador interactivo en consola, buscando una implementación relativamente sencilla, pero con una presentación visual atractiva.
+
+- Modularización del programa: Orientación sobre la separación de responsabilidades entre los módulos principales, como la lógica del simulador, la interfaz, las animaciones, las validaciones, los reportes, etc.
 
 - Organización de la interfaz: orientación sobre posibles diseños de menús, presentación de información y recursos visuales para la terminal.
 
