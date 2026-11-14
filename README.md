@@ -67,25 +67,25 @@ La organización modular facilita el mantenimiento, la comprensión y la ampliac
 
 ## ESTRUCTURA DEL CÓDIGO
 
-artemis_tli_final/
-├── include/
-│   ├── animacion.h
-│   ├── artemis.h
-│   ├── colores.h
-│   ├── fisica.h
-│   ├── interfaz.h
-│   ├── reportes.h
-│   └── validaciones.h
-├── src/
-│   ├── animacion.c
-│   ├── artemis.c
-│   ├── fisica.c
-│   ├── interfaz.c
-│   ├── main.c
-│   ├── reportes.c
-│   └── validaciones.c
-├── Makefile
-└── README.md
+- artemis_tli_final/
+- ├── include/
+- │   ├── animacion.h
+- │   ├── artemis.h
+- │   ├── colores.h
+- │   ├── fisica.h
+- │   ├── interfaz.h
+- │   ├── reportes.h
+- │   └── validaciones.h
+- ├── src/
+- │   ├── animacion.c
+- │   ├── artemis.c
+- │   ├── fisica.c
+- │   ├── interfaz.c
+- │   ├── main.c
+- │   ├── reportes.c
+- │   └── validaciones.c
+- ├── Makefile
+- └── README.md
 
 ## COMPILACIÓN Y EJECUCIÓN
 
